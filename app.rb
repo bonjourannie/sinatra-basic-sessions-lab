@@ -7,4 +7,8 @@ class App < Sinatra::Base
     set :sessions_secret, "waffles"
   end 
   
+  get '/' do
+    
+  end
+  
 end
